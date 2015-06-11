@@ -88,7 +88,7 @@ class PostImageViewController: UIViewController, UINavigationControllerDelegate,
                 
                 self.displayAlert("Image Posted!", message: "Your image has been posted successfully")
                 
-                self.imageToPost.image = UIImage(named: "")
+                self.imageToPost.image = UIImage(named: "") //Enter the blank image name.
                 
                 self.message.text = ""
                 
